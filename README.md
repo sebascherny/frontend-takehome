@@ -22,18 +22,19 @@ After that, you can create a database. To create it from scratch:
 ```sudo su postgres```
 ```postgres$ psql```
 
-IF DATABASE EXISTS AND YOU WANT TO RESET IT:
+If database exists and you want to reset it:
 
 ```drop database nft_collections_db ;```
 
-TO CREATE IT:
+To create it:
 
 ```create database nft_collections_db;```
 
 ### MAC:
 
 After launching the App, click on the postgres file that will open a postgresql terminal, and just type:
-postgres=# create database nft_collections_db;
+
+```postgres=# create database nft_collections_db;```
 
 ## Running
 
